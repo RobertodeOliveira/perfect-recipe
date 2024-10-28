@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: 'Inter'
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
