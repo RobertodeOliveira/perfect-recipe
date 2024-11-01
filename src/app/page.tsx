@@ -1,9 +1,10 @@
-import { SectionBanner } from "./components/SectionBanner";
+// import { SectionBanner } from "./components/SectionBanner";
+import { CardCommunity } from "./components/SectionCommunity";
 
 export default function Home() {
   return (
-    <main className="bg-red-700 max-w-[1440px] m-auto grid grid-cols-11">
-      <SectionBanner />
+    <main className="max-w-[1440px] m-auto grid grid-cols-11">
+      <CardCommunity />
     </main>
   );
 }
